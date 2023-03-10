@@ -16,7 +16,7 @@ public class Q2 {
         {
             String input = inputs.nextLine();
             String record[] = input.split(" ");
-            if (record.length != 3)
+            if (record.length < 2)
             {
                 continue;
             }
